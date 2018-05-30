@@ -26,6 +26,20 @@ body {
     color: #777777;
 }
 
+main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    border: 1px #dddddd solid;
+}
+
+main .container {
+    padding: 3%;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
@@ -33,13 +47,6 @@ h1 {
     color: #222;
     border-bottom: 2px #dddddd solid;
     padding: 1%;
-}
-
-.bio {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    line-height: 1.5em;
-    color: #444;
 }
 
 footer {
@@ -56,16 +63,27 @@ footer .container {
     color: #777777;
 }
 
-main {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: #fff;
-    border: 1px #dddddd solid;
+/* About Me */
+.bio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #444;
 }
 
-main .container {
-    padding: 3%;
+/* Portfolio */
+.card-img-top {
+    display: block;
+    height: 192px;
+    width: 100%;
+}
+
+.portfolio {
+    background-color: white;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15em;
+    color: #444;
 }
